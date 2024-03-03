@@ -150,58 +150,52 @@
                             us?
                         </h4>
                         <!-- start contact form -->
-                        <form action="" method="POST" enctype="multipart/form-data" onsubmit={submitBtn()}>
+                        <form action="https://formspree.io/f/mpzvrbzo" method="POST">
                             <div class="position-relative form-group mb-20px">
                                 <span class="form-icon"><i class="bi bi-emoji-smile"></i></span>
-                                <input type="text" name="name" class="form-control required" placeholder="Your name*">
+                                <input type="text" name="Name" class="form-control required" placeholder="Your name*">
                             </div>
                             <div class="position-relative form-group mb-20px">
                                 <span class="form-icon"><i class="bi bi-envelope"></i></span>
-                                <input type="email" name="email" class="form-control required"
+                                <input type="email" name="Email" class="form-control required"
                                     placeholder="Your email address*">
                             </div>
                             <div class="position-relative form-group mb-20px">
                                 <span class="form-icon"><i class="bi bi-telephone-outbound"></i></span>
-                                <input type="number" name="number" class="form-control required"
+                                <input type="number" name="Number" class="form-control required"
                                     placeholder="Your phone number*">
                             </div>
                             <div class="position-relative form-group form-textarea mb-20px">
                                 <span class="form-icon"><i class="bi bi-chat-square-dots"></i></span>
-                                <textarea placeholder="Do you have any relevant work experience?" name="comment"
+                                <textarea placeholder="Do you have any relevant work experience?" name="Work Experience"
                                     class="form-control" rows="2"></textarea>
-                                <input type="hidden" name="redirect" value="">
                             </div>
                             <div class="position-relative form-group form-textarea mb-20px">
                                 <span class="form-icon"><i class="bi bi-chat-square-dots"></i></span>
                                 <textarea
                                     placeholder="What skills or qualifications do you have that make you a good fit to work with us?"
-                                    name="comment" class="form-control" rows="2"></textarea>
-                                <input type="hidden" name="redirect" value="">
+                                    name="Skills" class="form-control" rows="2"></textarea>
                             </div>
                             <div class="position-relative form-group form-textarea mb-20px">
                                 <span class="form-icon"><i class="bi bi-chat-square-dots"></i></span>
                                 <textarea
                                     placeholder="Do you have any references who can speak to your work performance? If so, please provide their contact information"
-                                    name="comment" class="form-control" rows="3"></textarea>
-                                <input type="hidden" name="redirect" value="">
+                                    name="Referees" class="form-control" rows="3"></textarea>
                             </div>
                             <div class="position-relative form-group form-textarea mb-20px">
                                 <span class="form-icon"><i class="bi bi-chat-square-dots"></i></span>
-                                <textarea
-                                    placeholder="What suburb/city are you located in?"
-                                    name="comment" class="form-control" rows="1"></textarea>
-                                <input type="hidden" name="redirect" value="">
+                                <textarea placeholder="What suburb/city are you located in?" name="Location"
+                                    class="form-control" rows="1"></textarea>
                             </div>
 
-                            
+
 
                             <p style="font-style: italic;">Please send your resume to <a
                                     href="mailto:Info@lysiunworkforce.com.au">Info@lysiunworkforce.com.au</a><br />
                                 and one of our expert recruiters will contact you.
                             </p>
 
-                            <button
-                                class="ola btn btn-small btn-round-edge btn-dark-gray btn-box-shadow mt-20px m-auto submit"
+                            <button class="ola btn btn-small btn-round-edge btn-dark-gray btn-box-shadow mt-20px m-auto"
                                 type="submit">Send message</button>
                             <div class="form-results mt-20px d-none"></div>
                         </form>
