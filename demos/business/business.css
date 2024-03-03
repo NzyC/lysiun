@@ -174,3 +174,7 @@ footer ul li {
         line-height: 46px;
     }
 }
+
+.instagram-btn:hover {
+    transform: scale(1.2);
+}
